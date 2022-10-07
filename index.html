@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photo Album </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: black;
+        }
+        h2 {
+            margin-top: 200px;
+            text-shadow: 1px 1px white;
+        }
+
+        .imgDivs {
+            transform: rotate(45deg);
+            height: 250px;
+            width: 250px;
+            position: absolute;
+            opacity: .5;
+            transition: transform 1.5s;
+            font-size: 0px;
+            text-align: center;
+            filter: grayscale(.5);
+            background-size: 250px 250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 1px white solid;
+        }
+
+        #img1 {
+            background-image: url(tomcatBase.jpg);
+            margin-left: 9vw;
+            margin-top: 15vh;
+        }
+        #img2 {
+            background-image: url(eagleBase3.jpg);
+            background-size: 250px 250px;
+            margin-left: 25.5vw;
+            margin-top: 35vh;
+        }
+        #img3 {
+            background-image: url(viperBase2.jpg);
+            margin-left: 42vw;
+            margin-top: 15vh;
+        }
+        #img4 {
+            background-image: url(hornetBase2.jpg);
+            margin-left: 58.5vw;
+            margin-top: 35vh;
+        }
+        #img5 {
+            background-image: url(raptorBase2.jpg);
+            margin-left: 74.5vw;
+            margin-top: 15vh;
+        }
+
+        #img1:hover {
+            opacity: 1;
+            transform: rotate(0deg);
+            transform: scale(2.1);
+            z-index: 1;
+            font-size: 20px;
+            box-shadow: 0px 0px 10px 2px gray ;
+            filter: grayscale(0);
+            filter: brightness(75%)
+        }
+        #img2:hover {
+            opacity: 1;
+            transform: rotate(0deg);
+            transform: scale(2.1);
+            z-index: 1;
+            font-size: 20px;
+            box-shadow: 0px 0px 10px 2px gray ;
+            filter: grayscale(0);
+            filter: brightness(75%)
+        }
+        #img3:hover {
+            opacity: 1;
+            transform: rotate(0deg);
+            transform: scale(2.1);
+            z-index: 1;
+            font-size: 20px;
+            box-shadow: 0px 0px 10px 2px gray ;
+            filter: grayscale(0);
+            filter: brightness(75%)
+        }
+        #img4:hover {
+            opacity: 1;
+            transform: rotate(0deg);
+            transform: scale(2.1);
+            z-index: 1;
+            font-size: 20px;
+            box-shadow: 0px 0px 10px 2px gray ;
+            filter: grayscale(0);
+            filter: brightness(75%)
+        }
+        #img5:hover {
+            opacity: 1;
+            transform: rotate(0deg);
+            transform: scale(2.1);
+            z-index: 1;
+            font-size: 20px;
+            box-shadow: 0px 0px 10px 2px gray ;
+            filter: grayscale(0);
+            filter: brightness(75%)
+        }
+
+        #header {
+            text-align: center;
+            height: 10vh;
+            width: 98vw;
+        }
+
+        h1 {
+            color: rgb(200,200,200);
+            margin-top: 5vh;
+            font-size: 300%;
+            text-shadow: 2px 2px 50px white;
+        }
+  
+    </style>
+</head>
+<body>
+    <div id="header"> <h1> Evolution of American Fighter Jets ( Excluding the F35 ) </h1> </div>
+
+        <!--Images-->
+        <div id="img1" class="imgDivs"> <h2> Tomcat </h2> </div>
+        <div id="img2" class="imgDivs"> <h2> Eagle </h2> </div>
+        <div id="img3" class="imgDivs"> <h2> Viper </h2> </div>
+        <div id="img4" class="imgDivs"> <h2> Hornet </h2> </div>
+        <div id="img5" class="imgDivs"> <h2> Raptor </h2> </div>
+        
+
+</body>
+</html>
